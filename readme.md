@@ -1,0 +1,1 @@
+OOP adalah teknik yang umum di dunia programming
