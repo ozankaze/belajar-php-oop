@@ -1,44 +1,39 @@
 <?php
 
-class Mobil {
-    public $mobil = "ferrari";
-    public $berat = 40;
-    public $pesawat;
+// class tempat menampung kode variable/ metode yang di gunakan pada object
 
-    public function mobil()
+class Kucing {
+
+    // properti
+    public $suara;
+    public $berat;
+
+    // konstrucktor metode fungsi biasa akan otomatis terpanggil ketika buat objecknya
+    // setiap membuat object dia akan menmanggil apapun yang ada di dalamnya
+    public function __construct($suara, $kucing) 
     {
-        return $this->mobil;
+        $this->suara = $suara;
+        $this->berat = $kucing;
     }
 
-    public function set_pesawat($pesawat)
+    // metode set && get
+    public function set_suara($suara) 
     {
-        $this->pesawat = $pesawat;
+        $this->suara = $suara;
     }
 
-    public function get_pesawat()
+    public function get_suara()
     {
-        return $this->pesawat;
+        return $this->suara;
     }
-    
+
+    public function set_berat_kucing($kucing)
+    {
+        $this->berat = $kucing;
+    }
+
+    public function get_kucing()
+    {
+        return $this->berat;
+    }
 }
-
-
-$mobil = new Mobil;
-$pesawat = new Mobil;
-
-echo $mobil->mobil . "<br>";
-echo $mobil->berat . "<br>";
-
-echo $mobil->mobil() . "<br>";
-echo $mobil->mobil = "honda civic" . "<br>";
-
-$pesawat->set_pesawat('F-17');
-echo $pesawat->get_pesawat();
-
-
-
-
-
-
-
-?>
