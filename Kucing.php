@@ -1,16 +1,5 @@
 <?php
 
-// inheritance || pewarisan
-class IbuKucing extends Kucing { // ibunya anak
-    // pada ibuKucing bisa memiliki sifat anaknya
-    // dan anaknya tidak bisa memiliki sifat ibunya
-    // motede pada parent bisa kita ambil tapi metode dari anaknya tidak bisa kita ambil untuk object dari parent
-    public function get_imut()
-    {
-        echo "saya hewan anggora yang menawan";
-    }
-}
-
 // class tempat menampung kode variable/ metode yang di gunakan pada object
 
 class Kucing { // anak

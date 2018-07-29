@@ -1,5 +1,6 @@
 <?php
 require_once('Kucing.php');
+require_once('IbuKucing.php');
 
 $kucing1 = new Kucing('meong meong wkwk', 20);
 // $kucing2->set_berat_kucing(40);
@@ -8,9 +9,9 @@ echo 'Anaknya bunyinya .... ' . $kucing1->get_suara() . "<br>";
 
 
 $kucingAngora = new IbuKucing('hoam hoam', 20);
-echo 'Ibunya angora ...... ' . $kucingAngora->get_suara() . "<br>";
+echo 'Ibunya angora ...... 1 ' . $kucingAngora->get_suara() . "<br>";
 
-echo 'Ibunya angora ...... ' . $kucingAngora->get_imut() . "<br>";
+// echo 'Ibunya angora ...... ' . $kucingAngora->get_imut() . "<br>";
 
 
 ?>
