@@ -38,3 +38,7 @@ class Kucing { // anak
     }
 
 }
+
+
+
+// parent

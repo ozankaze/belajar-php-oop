@@ -9,7 +9,7 @@ echo 'Anaknya bunyinya .... ' . $kucing1->get_suara() . "<br>";
 
 
 $kucingAngora = new IbuKucing('hoam hoam', 20);
-echo 'Ibunya angora ...... 1 ' . $kucingAngora->get_suara() . "<br>";
+echo $kucingAngora->get_suara() . "<br>";
 
 // echo 'Ibunya angora ...... ' . $kucingAngora->get_imut() . "<br>";
 
