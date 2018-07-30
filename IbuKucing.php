@@ -17,6 +17,13 @@ class IbuKucing extends Kucing { // ibunya anak
     {
         return 'suaranya bunyinya . . . . 2 ' . $this->suara; 
     }
+
+    // self memanggil fungsi yang  ada di dalam kelasnya sendiri
+    // parent adalah akan memanggil fungsi yang ada di parentnya, hanya mengembalikan suara tanpa text tambahan
+    public function testing()
+    {
+        return self::get_suara();
+    }
 }
 
 
