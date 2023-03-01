@@ -6,8 +6,12 @@ class Person
     var ?string $address = null; // Nullable Properties
     var string $country = "Indonesia"; // Properties Default Value
 
-    function sayHello(string $name)
+    function sayHello(?string $name)
     {
-        echo "Hello $name" . PHP_EOL;
+        if (is_null($name)) {
+            echo "Hi, my name is $this->name" . PHP_EOL;
+        } else {
+            echo "Hi $name, my name is $this->name" . PHP_EOL;
+        }
     }
 }
