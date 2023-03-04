@@ -9,3 +9,6 @@ $eva->sayHello("Budi");
 $eunha = new Person();
 $eunha->name = "Eunha";
 $eunha->sayHello(null);
+
+$eva->info();
+$eunha->info();
