@@ -2,6 +2,8 @@
 
 class Person 
 {
+    const AUTHOR = "PHP Z Now";
+
     var string $name;
     var ?string $address = null; // Nullable Properties
     var string $country = "Indonesia"; // Properties Default Value
