@@ -2,11 +2,11 @@
 
 require "data/Person.php";
 
-$eva = new Person();
+$eva = new Person("Eva", "Soeul");
 $eva->name = "Eva";
 $eva->sayHello("Budi");
 
-$eunha = new Person();
+$eunha = new Person("Eunha", null);
 $eunha->name = "Eunha";
 $eunha->sayHello(null);
 

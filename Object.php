@@ -2,6 +2,6 @@
 
 require "data/Person.php";
 
-$person = new Person();
+$person = new Person("Zan", "Indonesia");
 
 var_dump($person);
