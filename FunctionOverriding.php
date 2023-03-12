@@ -8,4 +8,4 @@ $manager->sayHello("Eunha");
 
 $manager = new VicePresident();
 $manager->name = "Seena";
-$manager->sayHello("Zan");
+$manager->sayHello("Eunha");
