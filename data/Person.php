@@ -8,6 +8,13 @@ class Person
     var ?string $address = null; // Nullable Properties
     var string $country = "Indonesia"; // Properties Default Value
 
+    public function __construct(string $name, ?string $address)
+    {
+        $this->name = $name;
+        $this->address = $address; 
+
+    }
+
     function sayHello(?string $name)
     {
         if (is_null($name)) {
@@ -20,13 +27,6 @@ class Person
     function info()
     {
         echo "AUTHOR : " . self::AUTHOR . PHP_EOL;
-    }
-
-    public function __construct(string $name, ?string $address)
-    {
-        $this->name = $name;
-        $this->address = $address;
-
     }
 
     function __destruct()
