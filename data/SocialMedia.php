@@ -18,6 +18,7 @@ class Instagram extends SocialMedia
 // error
 class Faceook extends Instagram
 {
+    // error
     public function login(string $username, string $password)
     {
         return false;
