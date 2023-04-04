@@ -8,9 +8,6 @@ $student1 = new Student();
 $student1->id = "1";
 $student1->name = "Eva";
 $student1->value = 3000;
+$student1->setExample("SAMPLE");
 
-$string = (string) $student1;
-echo $string;
-
-// bisa dengan seperti ini
-echo $student1 . PHP_EOL;
+var_dump($student1);
